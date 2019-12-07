@@ -2,6 +2,21 @@
 
 This is a reinforcement learning pipeline for intelligent traffic signal control. Usage and more information can be found below.
 
+## Installation
+
+We recommend to run the code through docker. Some brief documentation can be found at https://docs.docker.com/.
+
+1. Please pull the docker image from the docker hub. 
+``docker pull gjzheng/frap:latest``
+
+2. Please run the built docker image to initiate a docker container. Please remember to mount the code directory.
+
+```
+docker run -it -v path/to/the/code/repo/:/work/ simulator-test bash
+cd /work/
+bash example_run.sh
+```
+
 ## Usage
 
 Start an example:
